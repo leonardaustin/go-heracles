@@ -1,18 +1,7 @@
-# GO Heracles (Auth Service)
+# Go Heracles (Auth Service)
+*Gatekeeper of Olympus (a.k.a. Auth Service)*
+
 Authenticate users with email and password over public endpoint. Return a token valid for a period of time (sent in request with validation range set in go config).
-
-
-## Server Stack
-- Go
-- protobuf
-- Cassandra
-- RabbitMQ (NSQ)
-
-## Client Stack
-- Backbone.js
-- Require.js
-- jQuery ()
-- Twitter Bootstrap (HTML/CSS/JS)
 
 ## Schema
 *user*
